@@ -2,4 +2,5 @@
 Framework CSS
 
 
-Demo & Docs : http://www.julienlejeune.com/framework/
+Demo & Doc : http://www.julienlejeune.com/framework/
+Download : http://www.julienlejeune.com/framework/framework.zip 
