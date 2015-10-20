@@ -2,4 +2,4 @@
 Framework CSS
 
 
-Demo : http://www.julienlejeune.com/framework/
+Demo & Docs : http://www.julienlejeune.com/framework/
