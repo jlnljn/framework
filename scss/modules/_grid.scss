@@ -1,0 +1,61 @@
+/* BLOC GRILLE */
+
+[class*="grid-"] { 
+	width: $grid-width;
+	margin: 10px auto;
+	padding: $goutiere;
+	overflow: hidden;
+}
+
+/* COLONNES RESPONSIVES */
+
+@media (max-width: $x-small) {
+	@for $i from 1 through 24 {
+	    .grid-10 > .x-small-#{$i} { width: 100% / 10 * $i; }
+	    .grid-12 > .x-small-#{$i} { width: 100% / 12 * $i; }	    
+	    .grid-14 > .x-small-#{$i} { width: 100% / 14 * $i; }
+	    .grid-16 > .x-small-#{$i} { width: 100% / 16 * $i; }
+	}
+}
+
+@media (min-width: $x-small+1) and (max-width: ($medium)-1) {
+	@for $i from 1 through 24 {	 
+	    .grid-10 > .small-#{$i} { width: 100% / 10 * $i; }
+	    .grid-12 > .small-#{$i} { width: 100% / 12 * $i; }
+	    .grid-14 > .small-#{$i} { width: 100% / 14 * $i; }
+	    .grid-16 > .small-#{$i} { width: 100% / 16 * $i; }	 
+	}
+}
+
+@media (min-width: $medium) and (max-width: ($large)-1) {
+	@for $i from 1 through 24 {	 
+	    .grid-10 > .medium-#{$i} { width: 100% / 10 * $i; } 
+	    .grid-12 > .medium-#{$i} { width: 100% / 12 * $i; }    
+	    .grid-14 > .medium-#{$i} { width: 100% / 14 * $i; }
+	    .grid-16 > .medium-#{$i} { width: 100% / 16 * $i; } 
+	}
+}
+
+@media (min-width: $large) and (max-width: ($x-large)-1) {
+	@for $i from 1 through 24 {	 
+	    .grid-10 > .large-#{$i} { width: 100% / 10 * $i; }
+	    .grid-12 > .large-#{$i} { width: 100% / 12 * $i; }
+	    .grid-14 > .large-#{$i} { width: 100% / 14 * $i; }
+	    .grid-16 > .large-#{$i} { width: 100% / 16 * $i; }
+	}
+}
+
+@media (min-width: $x-large) {
+	@for $i from 1 through 24 {	 
+	    .grid-10 > .x-large-#{$i} { width: 100% / 10 * $i; }	 
+	    .grid-12 > .x-large-#{$i} { width: 100% / 12 * $i; }	    
+	    .grid-14 > .x-large-#{$i} { width: 100% / 14 * $i; }
+	    .grid-16 > .x-large-#{$i} { width: 100% / 16 * $i; }	 
+	}
+}
+
+.column {
+    float: left;   
+    padding: $goutiere;
+}
+ 

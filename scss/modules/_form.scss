@@ -1,0 +1,45 @@
+/* BOUTONS SWITCH */ 
+
+input.switch {
+	display: none;
+}
+
+input.switch + label {
+	background: $grey400; 
+	display: inline-block;
+	height: $goutiere*2; 
+	width: $goutiere*4;
+	position: relative; 
+}
+
+input.switch + label:hover {
+	cursor: pointer;
+}
+
+input.switch:checked + label { 
+	display: inline-block;
+	height: $goutiere*2; 
+	width: $goutiere*4;
+	background: $red800;
+	@include transition(1s,ease,all);
+}
+
+input.switch + label > span {
+	position: relative;
+	background: $bluegrey50;
+	border: 3px solid $grey400;
+	height: $goutiere*2; 
+	width: $goutiere*2;
+	display: block;
+	@include transition(1s,ease,all);
+}
+
+input.switch:checked + label > span {
+	left: $goutiere*2;
+	border: 3px solid $red800;
+}
+
+input.switch.round + label, 
+input.switch.round + label > span {
+	border-radius: 150px;
+}

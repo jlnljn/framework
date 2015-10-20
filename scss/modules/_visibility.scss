@@ -1,0 +1,12 @@
+
+
+@media (max-width: 1000px) {
+
+  .show-on-tablet,
+  .show-on-desktop,
+  .hide-on-phone { display: none; }
+  .show-on-phone,
+  .hide-on-tablet, 
+  .hide-on-desktop { display: block; }
+
+}

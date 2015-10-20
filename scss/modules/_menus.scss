@@ -1,0 +1,115 @@
+
+#menu {
+	position: fixed;
+	top: 0;
+	left: -(100% - $site-width);
+	width: 100% - $site-width;
+	height: 100%;
+	background: $red500;
+	padding-top: 100px;
+	transition: 0.5s ease all;
+	overflow-y: auto;
+}
+
+#home {
+	position: absolute;
+	top: 0;
+	width: $site-width;
+	height: 100%;
+	left: (100% - $site-width)/2;
+	transition: 0.5s ease all;
+}
+
+#site {
+	width: $site-width;
+	top: 100%;
+	left: (100% - $site-width)/2;
+	position: absolute;
+	transition: 0.5s ease all;
+}
+ 
+
+.menuLeftOpen #menu { 
+	left: 0; 
+}
+
+.menuLeftOpen #home, 
+.menuLeftOpen #site { 
+	left: (100% - $site-width); 
+}
+  
+
+#leftLink {
+	position: fixed;
+	top: 30px;
+	left: 30px;
+	width: 30px;
+	height: 30px; 
+	display: block;
+	background: none;
+}  
+
+
+#leftLink > span {
+	position: absolute;
+	top: 5px;
+	margin-top: 5px;
+	left: 5px;
+	width: 20px;
+	height: 2px;
+	background: $bluegrey50;
+	transition: 0.5s ease all;
+}
+
+.menuLeftOpen #leftLink > span { 
+	background: $grey900;
+	transition: 0.5s ease all;
+}
+
+#leftLink > span:first-child { 
+	top: 0px; 
+}
+
+#leftLink > span:last-child {  
+	top: 10px; 
+}
+
+.menuLeftOpen #leftLink > span:first-child { 
+	transform: rotate(-45deg); 
+	width: 10px;
+	top: 1px;
+}
+
+.menuLeftOpen #leftLink > span:last-child { 
+	transform: rotate(45deg); 
+	width: 10px;
+	top: 9px;
+}
+
+#leftLink:hover > span:first-child { top: -3px;}
+#leftLink:hover > span:last-child { top: 13px;}
+.menuLeftOpen #leftLink:hover > span:first-child { top: 1px;}
+.menuLeftOpen #leftLink:hover > span:last-child { top: 9px;}
+.menuLeftOpen #leftLink:hover > span { background: $red800; }
+
+
+
+@media (max-width: 1000px) {
+
+	#menu {
+		left: -100%;
+		width: 100%;
+	}
+
+}
+
+
+@media (min-width: 1001px) and (max-width: 1023px) {
+
+	#menu {
+		left: -30%;
+		width: 30%;
+	}
+
+}
+

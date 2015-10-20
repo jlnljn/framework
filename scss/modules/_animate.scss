@@ -1,0 +1,134 @@
+/* OPACITE AU SURVOL */
+
+.opacity-hover { opacity: 0.75 !important; @include transition(0.5s, ease, all); }
+.opacity-hover:hover { opacity: 1 !important; @include transition(0.5s, ease, all); }
+
+/* EFFETS AU SCROLL  */ 
+ 
+.scroll-animation.scale { @include scale(0); }
+.scroll-animation-in.scale { @include scale(1); }
+ 
+.scroll-animation.scaleX { @include scaleX(0); }
+.scroll-animation-in.scaleX { @include scaleX(1); }
+ 
+.scroll-animation.scaleY { @include scaleY(0); }
+.scroll-animation-in.scaleY { @include scaleY(1); }
+ 
+.scroll-animation.opacity { opacity: 0; }
+.scroll-animation-in.opacity { opacity: 1; }
+ 
+/* EFFETS AU SCROLL - TRANSITIONS */ 
+ 
+.scroll-animation {	@include transition(0.2s, ease, all); }
+.scroll-animation-in { @include transition(1s, ease, all); }
+
+/* EFFETS AU SCROLL - DELAY */ 
+  
+.scroll-animation-in:first-child { @include transitionD(0.1s); }
+.scroll-animation-in:nth-child(2) { @include transitionD(0.2s); }
+.scroll-animation-in:nth-child(3) { @include transitionD(0.3s); }
+.scroll-animation-in:nth-child(4) { @include transitionD(0.4s); }
+.scroll-animation-in:nth-child(5) { @include transitionD(0.5s); }
+.scroll-animation-in:nth-child(6) { @include transitionD(0.6s); }
+.scroll-animation-in:nth-child(7) { @include transitionD(0.7s); }
+.scroll-animation-in:nth-child(8) { @include transitionD(0.8s); }
+.scroll-animation-in:nth-child(9) { @include transitionD(0.9s); }
+
+.scroll-animation-in:nth-child(10) { @include transitionD(1s); }
+.scroll-animation-in:nth-child(11) { @include transitionD(1.1s); }
+.scroll-animation-in:nth-child(12) { @include transitionD(1.2s); }
+.scroll-animation-in:nth-child(13) { @include transitionD(1.3s); }
+.scroll-animation-in:nth-child(14) { @include transitionD(1.4s); }
+.scroll-animation-in:nth-child(15) { @include transitionD(1.5s); }
+.scroll-animation-in:nth-child(16) { @include transitionD(1.6s); }
+.scroll-animation-in:nth-child(17) { @include transitionD(1.7s); }
+.scroll-animation-in:nth-child(18) { @include transitionD(1.8s); }
+.scroll-animation-in:nth-child(19) { @include transitionD(1.9s); }
+
+.scroll-animation-in:nth-child(20) { @include transitionD(2s); }
+.scroll-animation-in:nth-child(21) { @include transitionD(2.1s); }
+.scroll-animation-in:nth-child(22) { @include transitionD(2.2s); }
+.scroll-animation-in:nth-child(23) { @include transitionD(2.3s); }
+.scroll-animation-in:nth-child(24) { @include transitionD(2.4s); }
+.scroll-animation-in:nth-child(25) { @include transitionD(2.5s); }
+.scroll-animation-in:nth-child(26) { @include transitionD(2.6s); }
+.scroll-animation-in:nth-child(27) { @include transitionD(2.7s); }
+.scroll-animation-in:nth-child(28) { @include transitionD(2.8s); }
+.scroll-animation-in:nth-child(29) { @include transitionD(2.9s); }
+
+.scroll-animation-in:nth-child(30) { @include transitionD(3s); }
+.scroll-animation-in:nth-child(31) { @include transitionD(3.1s); }
+.scroll-animation-in:nth-child(32) { @include transitionD(3.2s); }
+.scroll-animation-in:nth-child(33) { @include transitionD(3.3s); }
+.scroll-animation-in:nth-child(34) { @include transitionD(3.4s); }
+.scroll-animation-in:nth-child(35) { @include transitionD(3.5s); }
+.scroll-animation-in:nth-child(36) { @include transitionD(3.6s); }
+.scroll-animation-in:nth-child(37) { @include transitionD(3.7s); }
+.scroll-animation-in:nth-child(38) { @include transitionD(3.8s); }
+.scroll-animation-in:nth-child(39) { @include transitionD(3.9s); }
+
+.scroll-animation-in:nth-child(40) { @include transitionD(4s); }
+.scroll-animation-in:nth-child(41) { @include transitionD(4.1s); }
+.scroll-animation-in:nth-child(42) { @include transitionD(4.2s); }
+.scroll-animation-in:nth-child(43) { @include transitionD(4.3s); }
+.scroll-animation-in:nth-child(44) { @include transitionD(4.4s); }
+.scroll-animation-in:nth-child(45) { @include transitionD(4.5s); }
+.scroll-animation-in:nth-child(46) { @include transitionD(4.6s); }
+.scroll-animation-in:nth-child(47) { @include transitionD(4.7s); }
+.scroll-animation-in:nth-child(48) { @include transitionD(4.8s); }
+.scroll-animation-in:nth-child(49) { @include transitionD(4.9s); }
+
+.scroll-animation-in:nth-child(50) { @include transitionD(5s); }
+.scroll-animation-in:nth-child(51) { @include transitionD(5.1s); }
+.scroll-animation-in:nth-child(52) { @include transitionD(5.2s); }
+.scroll-animation-in:nth-child(53) { @include transitionD(5.3s); }
+.scroll-animation-in:nth-child(54) { @include transitionD(5.4s); }
+.scroll-animation-in:nth-child(55) { @include transitionD(5.5s); }
+.scroll-animation-in:nth-child(56) { @include transitionD(5.6s); }
+.scroll-animation-in:nth-child(57) { @include transitionD(5.7s); }
+.scroll-animation-in:nth-child(58) { @include transitionD(5.8s); }
+.scroll-animation-in:nth-child(59) { @include transitionD(5.9s); }
+
+.scroll-animation-in:nth-child(60) { @include transitionD(6s); }
+.scroll-animation-in:nth-child(61) { @include transitionD(6.1s); }
+.scroll-animation-in:nth-child(62) { @include transitionD(6.2s); }
+.scroll-animation-in:nth-child(63) { @include transitionD(6.3s); }
+.scroll-animation-in:nth-child(64) { @include transitionD(6.4s); }
+.scroll-animation-in:nth-child(65) { @include transitionD(6.5s); }
+.scroll-animation-in:nth-child(66) { @include transitionD(6.6s); }
+.scroll-animation-in:nth-child(67) { @include transitionD(6.7s); }
+.scroll-animation-in:nth-child(68) { @include transitionD(6.8s); }
+.scroll-animation-in:nth-child(69) { @include transitionD(6.9s); }
+
+.scroll-animation-in:nth-child(70) { @include transitionD(7s); }
+.scroll-animation-in:nth-child(71) { @include transitionD(7.1s); }
+.scroll-animation-in:nth-child(72) { @include transitionD(7.2s); }
+.scroll-animation-in:nth-child(73) { @include transitionD(7.3s); }
+.scroll-animation-in:nth-child(74) { @include transitionD(7.4s); }
+.scroll-animation-in:nth-child(75) { @include transitionD(7.5s); }
+.scroll-animation-in:nth-child(76) { @include transitionD(7.6s); }
+.scroll-animation-in:nth-child(77) { @include transitionD(7.7s); }
+.scroll-animation-in:nth-child(78) { @include transitionD(7.8s); }
+.scroll-animation-in:nth-child(79) { @include transitionD(7.9s); }
+ 
+.scroll-animation-in:nth-child(80) { @include transitionD(8s); }
+.scroll-animation-in:nth-child(81) { @include transitionD(8.1s); }
+.scroll-animation-in:nth-child(82) { @include transitionD(8.2s); }
+.scroll-animation-in:nth-child(83) { @include transitionD(8.3s); }
+.scroll-animation-in:nth-child(84) { @include transitionD(8.4s); }
+.scroll-animation-in:nth-child(85) { @include transitionD(8.5s); }
+.scroll-animation-in:nth-child(86) { @include transitionD(8.6s); }
+.scroll-animation-in:nth-child(87) { @include transitionD(8.7s); }
+.scroll-animation-in:nth-child(88) { @include transitionD(8.8s); }
+.scroll-animation-in:nth-child(89) { @include transitionD(8.9s); }
+ 
+.scroll-animation-in:nth-child(90) { @include transitionD(9s); }
+.scroll-animation-in:nth-child(91) { @include transitionD(9.1s); }
+.scroll-animation-in:nth-child(92) { @include transitionD(9.2s); }
+.scroll-animation-in:nth-child(93) { @include transitionD(9.3s); }
+.scroll-animation-in:nth-child(94) { @include transitionD(9.4s); }
+.scroll-animation-in:nth-child(95) { @include transitionD(9.5s); }
+.scroll-animation-in:nth-child(96) { @include transitionD(9.6s); }
+.scroll-animation-in:nth-child(97) { @include transitionD(9.7s); }
+.scroll-animation-in:nth-child(98) { @include transitionD(9.8s); }
+.scroll-animation-in:nth-child(99) { @include transitionD(9.9s); } 

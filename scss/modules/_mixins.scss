@@ -1,0 +1,143 @@
+/* TRANSITION */
+@mixin transition($transition1, $transition2, $transition3) {
+ 	transition: $transition1 $transition2 $transition3;
+ 	-o-transition: $transition1 $transition2 $transition3;
+ 	-ms-transition: $transition1 $transition2 $transition3;
+ 	-moz-transition: $transition1 $transition2 $transition3;
+ 	-webkit-transition: $transition1 $transition2 $transition3;
+}
+
+/* TRANSITION - DELAI */
+@mixin transitionD($transitionDelay) {
+ 	transition-delay: $transitionDelay;
+ 	-o-transition-delay: $transitionDelay;
+ 	-ms-transition-delay: $transitionDelay;
+ 	-moz-transition-delay: $transitionDelay;
+ 	-webkit-transition-delay: $transitionDelay;
+}
+
+/* TRANSFORMATION - ROTATION */
+@mixin rotate($deg) {
+ 	transform: rotate($deg);
+ 	-o-transform: rotate($deg);
+ 	-ms-transform: rotate($deg);
+ 	-moz-transform: rotate($deg);
+ 	-webkit-transform: rotate($deg);
+}
+
+/* TRANSFORMATION - ROTATION - AXE X */
+@mixin rotateX($deg) {
+ 	transform: rotateX($deg);
+ 	-o-transform: rotateX($deg);
+ 	-ms-transform: rotateX($deg);
+ 	-moz-transform: rotateX($deg);
+ 	-webkit-transform: rotateX($deg);
+}
+
+/* TRANSFORMATION - ROTATION - AXE Y */
+@mixin rotateY($deg) {
+ 	transform: rotateY($deg);
+ 	-o-transform: rotateY($deg);
+ 	-ms-transform: rotateY($deg);
+ 	-moz-transform: rotateY($deg);
+ 	-webkit-transform: rotateY($deg);
+}
+
+/* TRANSFORMATION - ROTATION - AXE Z */
+@mixin rotateZ($deg) {
+ 	transform: rotateZ($deg);
+ 	-o-transform: rotateZ($deg);
+ 	-ms-transform: rotateZ($deg);
+ 	-moz-transform: rotateZ($deg);
+ 	-webkit-transform: rotateZ($deg);
+}
+
+/* TRANSFORMATION - SCALE */
+@mixin scale($sc) {
+ 	transform: scale($sc);
+ 	-o-transform: scale($sc);
+ 	-ms-transform: scale($sc);
+ 	-moz-transform: scale($sc);
+ 	-webkit-transform: scale($sc);
+}
+
+/* TRANSFORMATION - SCALE - AXE X */
+@mixin scaleX($scX) {
+ 	transform: scaleX($scX);
+ 	-o-transform: scaleX($scX);
+ 	-ms-transform: scaleX($scX);
+ 	-moz-transform: scaleX($scX);
+ 	-webkit-transform: scaleX($scX);
+}
+
+/* TRANSFORMATION - SCALE - AXE Y */
+@mixin scaleY($scY) {
+ 	transform: scaleY($scY);
+ 	-o-transform: scaleY($scY);
+ 	-ms-transform: scaleY($scY);
+ 	-moz-transform: scaleY($scY);
+ 	-webkit-transform: scaleY($scY);
+}
+
+/* FILTRE - CONVERTIR EN NIVEAUX DE GRIS */
+@mixin grayscale($grayscaleValue) {
+ 	filter:grayscale($grayscaleValue);
+ 	-o-filter: grayscale($grayscaleValue);
+ 	-ms-filter: grayscale($grayscaleValue);
+ 	-moz-filter: grayscale($grayscaleValue);
+ 	-webkit-filter: grayscale($grayscaleValue);
+}
+
+/* FILTRE - FLOUTER */
+@mixin blur($blurValue) {
+ 	filter: blur($blurValue);
+ 	-o-filter: blur($blurValue);
+ 	-ms-filter: blur($blurValue);
+ 	-moz-filter: blur($blurValue);
+ 	-webkit-filter: blur($blurValue);
+}
+
+/* FILTRE - TEINTE */
+@mixin hue-rotate($hueRotateValue) {
+ 	filter: hue-rotate($hueRotateValue);
+ 	-o-filter: hue-rotate($hueRotateValue);
+ 	-ms-filter: hue-rotate($hueRotateValue);
+ 	-moz-filter: hue-rotate($hueRotateValue);
+ 	-webkit-filter: hue-rotate($hueRotateValue);
+} 
+
+/* FILTRE - SATURATION */
+@mixin saturate($saturateValue) {
+ 	filter: saturate($saturateValue);
+ 	-o-filter: saturate($saturateValue);
+ 	-ms-filter: saturate($saturateValue);
+ 	-moz-filter: saturate($saturateValue);
+ 	-webkit-filter: saturate($saturateValue);
+}
+
+/* FILTRE - LUMINOSITE */
+@mixin brightness($brightnessValue) {
+ 	filter: brightness($brightnessValue);
+ 	-o-filter: brightness($brightnessValue);
+ 	-ms-filter: brightness($brightnessValue);
+ 	-moz-filter: brightness($brightnessValue);
+ 	-webkit-filter: brightness($brightnessValue);
+}
+
+/* FILTRE - SEPIA */
+@mixin sepia($sepiaValue) {
+ 	filter: sepia($sepiaValue);
+ 	-o-filter: sepia($sepiaValue);
+ 	-ms-filter: sepia($sepiaValue);
+ 	-moz-filter: sepia($sepiaValue);
+ 	-webkit-filter: sepia($sepiaValue);
+}
+
+/* FILTRE - INVERTION COULEURS */
+@mixin invert($invertValue) {
+ 	filter: invert($invertValue);
+ 	-o-filter: invert($invertValue);
+ 	-ms-filter: invert($invertValue);
+ 	-moz-filter: invert($invertValue);
+ 	-webkit-filter: invert($invertValue);
+}
