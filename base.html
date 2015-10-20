@@ -22,37 +22,38 @@
 
         		$(window).load(function(){
 
-			var $container = $('.isotope-list');
-                	$container.isotope({
-				filter: '*',
-				animationOptions: {
-        			duration: 750,
-				easing: 'linear',
-				queue: false
-				}
-			}); 
+				var $container = $('.isotope-list');
+	                	$container.isotope({
+					filter: '*',
+					animationOptions: {
+	        			duration: 750,
+					easing: 'linear',
+					queue: false
+					}
+				}); 
  
-                $('.isotope-filtre a').click(function(){
-                    $('.isotope-filtre .current').removeClass('current');
-                    $(this).addClass('current');
-             
-                    var selector = $(this).attr('data-filter');
-                    $container.isotope({
-                        filter: selector,
-                        animationOptions: {
-                            duration: 750,
-                            easing: 'linear',
-                            queue: false
-                        }
-                     });
-                     return false;
-                }); 
-
-                $(function(){
-                  $('.ripple').materialripple();
-                });
-
-            });
+	                	$('.isotope-filtre a').click(function(){
+	                		
+	                		$('.isotope-filtre .current').removeClass('current');
+	                    		$(this).addClass('current');
+	           
+					var selector = $(this).attr('data-filter');
+					$container.isotope({
+						filter: selector,
+						animationOptions: {
+							duration: 750,
+							easing: 'linear',
+							queue: false
+						}
+					});
+					return false;
+					}); 
+		
+					$(function(){
+						$('.ripple').materialripple();
+					});
+					
+				});
 
             (function(){ 
                 var speed = 900,
