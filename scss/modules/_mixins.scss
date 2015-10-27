@@ -1,10 +1,10 @@
 /* TRANSITION */
-@mixin transition($transition1, $transition2, $transition3) {
- 	transition: $transition1 $transition2 $transition3;
- 	-o-transition: $transition1 $transition2 $transition3;
- 	-ms-transition: $transition1 $transition2 $transition3;
- 	-moz-transition: $transition1 $transition2 $transition3;
- 	-webkit-transition: $transition1 $transition2 $transition3;
+@mixin transition($transition) {
+ 	transition: $transition;
+ 	-o-transition: $transition;
+ 	-ms-transition: $transition;
+ 	-moz-transition: $transition;
+ 	-webkit-transition: $transition;
 }
 
 /* TRANSITION - DELAI */
@@ -50,6 +50,42 @@
  	-ms-transform: rotateZ($deg);
  	-moz-transform: rotateZ($deg);
  	-webkit-transform: rotateZ($deg);
+}
+
+/* TRANSFORMATION - TRANSLATE */
+@mixin translate($trs) {
+ 	transform: translate($trs);
+ 	-o-transform: translate($trs);
+ 	-ms-transform: translate($trs);
+ 	-moz-transform: translate($trs);
+ 	-webkit-transform: translate($trs);
+}
+
+/* TRANSFORMATION - TRANSLATE - AXE X */
+@mixin translateX($trsX) {
+ 	transform: translateX($trsX);
+ 	-o-transform: translateX($trsX);
+ 	-ms-transform: translateX($trsX);
+ 	-moz-transform: translateX($trsX);
+ 	-webkit-transform: translateX($trsX);
+}
+
+/* TRANSFORMATION - TRANSLATE - AXE Y */
+@mixin translateY($trsY) {
+ 	transform: translateY($trsY);
+ 	-o-transform: translateY($trsY);
+ 	-ms-transform: translateY($trsY);
+ 	-moz-transform: translateY($trsY);
+ 	-webkit-transform: translateY($trsY);
+}
+
+/* TRANSFORMATION - TRANSLATE - AXE Z */
+@mixin translateZ($trsZ) {
+ 	transform: translateZ($trsZ);
+ 	-o-transform: translateZ($trsZ);
+ 	-ms-transform: translateZ($trsZ);
+ 	-moz-transform: translateZ($trsZ);
+ 	-webkit-transform: translateZ($trsZ);
 }
 
 /* TRANSFORMATION - SCALE */
