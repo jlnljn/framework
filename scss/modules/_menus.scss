@@ -5,7 +5,7 @@
 	left: -(100% - $site-width);
 	width: 100% - $site-width;
 	height: 100%;
-	background: $red500;
+	background: $bluegrey50;
 	padding-top: 100px;
 	transition: 0.5s ease all;
 	overflow-y: auto;
@@ -44,11 +44,27 @@
 	top: 30px;
 	left: 30px;
 	width: 30px;
-	height: 30px; 
+	height: 25px; 
+	display: block; 
+} 
+
+#close {
+	position: fixed;
+	top: 30px;
+	left: -300px;
+	width: 30px;
+	height: 25px; 
 	display: block;
 	background: none;
 }  
 
+.menuLeftOpen #close {
+	left: 30px;
+}
+
+#close:hover {
+	cursor: pointer;
+}
 
 #leftLink > span {
 	position: absolute;
